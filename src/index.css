@@ -21,7 +21,10 @@ ul {
 
 /* ---ROOT VARS */
 :root {
+  --primary: #27182d;
+  --secondary: #d58e69;
   --font: "Montserrat", sans-serif;
+  --inspect: solid white 1px;
 }
 
 /* ---MAIN STYLES */
@@ -29,4 +32,5 @@ ul {
 body {
   font-family: var(--font);
   min-height: 100vh;
+  background: var(--primary);
 }
