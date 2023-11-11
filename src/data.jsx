@@ -1,9 +1,19 @@
+import ramon from "./assets/berenguer-ramon-j.png";
+import ramonRose from "./assets/berenguer-ramon-rose.png";
+import selecte from "./assets/can-paixano-selecte.png";
+import rosat from "./assets/can-paixano-rosat.png";
+import llopart from "./src/assets/llopart-brut.png";
+import llopartRose from "./assets/llopart-rose.png";
+import integral from "./assets/llopart-integral.png";
+import microcosmos from "./assets/llopart-microcosmos.png";
+import exVite from "./assets/llopart-ex-vite.png";
+
 const assortment = [
   {
     id: 1,
     title: "berenguer ramon j",
     type: "brut",
-    img: "",
+    img: ramon,
     doc: "cava",
     smaak: "droog (< 12 gr/L)",
     druiven: "macabeu, parellada, xarel-lo",
@@ -15,7 +25,7 @@ const assortment = [
     id: 2,
     title: "berenguer ramon rosé",
     type: "brut rosé",
-    img: "",
+    img: ramonRose,
     doc: "cava",
     smaak: "droog (< 12 gr/L)",
     druiven: "macabeu, parellada, xarel-lo",
@@ -27,7 +37,7 @@ const assortment = [
     id: 3,
     title: "can paixano selecte",
     type: "semi-sec",
-    img: "",
+    img: selecte,
     doc: "cava",
     smaak: "zoet (> 30 gr/L)",
     druiven: "macabeu, parellada, xarel-lo",
@@ -39,7 +49,7 @@ const assortment = [
     id: 4,
     title: "can paixano rosat",
     type: "semi-sec",
-    img: "",
+    img: rosat,
     doc: "cava",
     smaak: "zoet (> 30 gr/L)",
     druiven: "tempranillo, carinena, trepat",
@@ -51,7 +61,7 @@ const assortment = [
     id: 5,
     title: "llopart brut",
     type: "brut reserva",
-    img: "",
+    img: llopart,
     doc: "corpinnat",
     smaak: "droog (< 12 gr/L)",
     druiven: "macabeu, parellada, xarel-lo",
@@ -63,7 +73,7 @@ const assortment = [
     id: 6,
     title: "llopart brut rosé",
     type: "brut reserva rosé",
-    img: "",
+    img: llopartRose,
     doc: "corpinnat",
     smaak: "droog (< 12 gr/L)",
     druiven: "monastrell, garnatxa, pinot noir",
@@ -75,7 +85,7 @@ const assortment = [
     id: 7,
     title: "llopart integral",
     type: "brut nature reserva",
-    img: "",
+    img: integral,
     doc: "corpinnat",
     smaak: "zeer droog (< 3 gr/L)",
     druiven: "parellada, xarel-lo, chardonnay",
@@ -87,7 +97,7 @@ const assortment = [
     id: 8,
     title: "llopart microcosmos",
     type: "brut nature gran reserva",
-    img: "",
+    img: microcosmos,
     doc: "corpinnat",
     smaak: "zeer droog (< 3 gr/L)",
     druiven: "pinot noir, monastrell, fruit",
@@ -99,7 +109,7 @@ const assortment = [
     id: 9,
     title: "llopart ex-vite",
     type: "vintage brut gran reserva",
-    img: "",
+    img: exVite,
     doc: "corpinnat",
     smaak: "droog (< 12 gr/L)",
     druiven: "macabeu, xarel-lo",

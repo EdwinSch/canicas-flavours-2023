@@ -33,4 +33,10 @@ body {
   font-family: var(--font);
   min-height: 100vh;
   background: var(--primary);
+  color: var(--secondary);
+}
+main {
+  margin: 0 auto;
+  border: var(--inspect);
+  width: 1140px;
 }
