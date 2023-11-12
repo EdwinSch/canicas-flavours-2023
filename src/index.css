@@ -38,5 +38,16 @@ body {
 main {
   margin: 0 auto;
   border: var(--inspect);
-  width: 1140px;
+  max-width: 1140px;
+}
+
+/* ---HEADER COMPONENT */
+
+.logo-wrapper {
+  width: 100%;
+  text-align: center;
+
+  & img {
+    max-width: 300px;
+  }
 }
