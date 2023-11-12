@@ -20,6 +20,7 @@ const assortment = [
     rijping: "10 maanden",
     prijs: 15.95,
     uitverkocht: false,
+    info: "De Catalaanse zon in een fles; zo omschrijven we deze fantastische all-round Cava. Een zachte smaak, fijne bubbel en een bijzonder frisse hint van Groene Appel transporteren je direct naar het bruisende Barcelona. Perfect voor een borrel of feestje, nog perfecter in combinatie met tapa. Dit is een Cava voor de levensgenieters! Niet voor niets is de Ramon J het best verkochte product van Can Paixano en 1 van onze persoonlijke favorieten.",
   },
   {
     id: 2,
@@ -32,6 +33,7 @@ const assortment = [
     rijping: "10 maanden",
     prijs: 16.95,
     uitverkocht: false,
+    info: "Fashion axe la croix locavore offal, migas same neutra. Raclette pour-over PBR&B gatekeep. Fingerstache man braid adaptogen, asymmetrical tumeric plaid organic craft beer ennui neutra fanny pack wolf fam.",
   },
   {
     id: 3,
@@ -44,6 +46,7 @@ const assortment = [
     rijping: "10 maanden",
     prijs: 13.95,
     uitverkocht: false,
+    info: "Deze cava is speciaal voor de liefhebbers van zoet. Semi-sec heeft een hoge dosis toegevoegde suikers en combineert prima met een zonnige middag op het terras of als tegenhanger van zoutige tapa.",
   },
   {
     id: 4,
@@ -56,6 +59,7 @@ const assortment = [
     rijping: "10 maanden",
     prijs: 11.95,
     uitverkocht: false,
+    info: "Deze rose is een semi-sec variant en met en hoge dosis toegevoegde suikers een favoriet van zoete cava liefhebbers. Een bijzondere mix van Tempranillo, Carinena en Trepat geven het geheel een diep rode kleur. Werkt ook uitstekend als pairing met een amuse of dessert.",
   },
   {
     id: 5,
@@ -68,6 +72,7 @@ const assortment = [
     rijping: "18-20 maanden",
     prijs: 23.25,
     uitverkocht: false,
+    info: "Fashion axe la croix locavore offal, migas same neutra. Raclette pour-over PBR&B gatekeep. Fingerstache man braid adaptogen, asymmetrical tumeric plaid organic craft beer ennui neutra fanny pack wolf fam.",
   },
   {
     id: 6,
@@ -80,6 +85,7 @@ const assortment = [
     rijping: "18-20 maanden",
     prijs: 23.25,
     uitverkocht: false,
+    info: "Deze hoogwaardige Corpinnat smaakt exact zoals deze eruit ziet: luxueus, sexy en zijdezacht. Een prachtige Zachtroze kleur en fijne bubbel maken alleen het uitschenken al bijzonder. Een unieke combinatie van Pinot Noir en Garnatxa strelen de tong en geven een heel licht zoetig hintje. Perfect voor een bijzondere of romantische avond en combineert geweldig met kaas, noten, gedroogd vlees, fruit en zelfs desserts. Absoluut 1 van onze bestsellers en bij het proeven begrijp je exact waarom…",
   },
   {
     id: 7,
@@ -92,6 +98,7 @@ const assortment = [
     rijping: "24 maanden",
     prijs: 24.95,
     uitverkocht: false,
+    info: "Stoer, vurig en eigenwijs; dat is de Integral. Met minder dan 3 gram suiker per liter smaakt deze Brut-Nature zeer droog en robuust. De infusie van Chardonnay en een iets grovere bubbel geeft het geheel een body die smaakt naar Spaans temparement en de Flamingo. Durf je de Integral aan? Combineer deze dan met een zoutig gerecht zoals Pata negra, vis of paella, of een snack als naturel chips en zoute popcorn.",
   },
   {
     id: 8,
@@ -104,6 +111,7 @@ const assortment = [
     rijping: "24-30 maanden",
     prijs: 29.95,
     uitverkocht: false,
+    info: "De Microcosmos is werkelijk een reisje naar de sterrenhemel. Bij het rijpen van deze hoogwaardige en uitzonderlijke Gran Reserva wordt een selectie van rode vruchten toegevoegd. Dit geeft niet alleen een bijzondere Robijnrode kleur. Maar zorgt ook voor hintjes van zoet-fruitge tonen ondanks deze Brut-Nature variant nagenoeg geen suikers bevat. Een unieke combinatie en de perfecte keuze voor iedereen die echt iets bijzonders zoekt. 1 van onze persoonlijke favorieten en de kers op de taart voor iedere diner tafel of een eindeloze zwoele zomeravond. ",
   },
   {
     id: 9,
@@ -116,6 +124,7 @@ const assortment = [
     rijping: "90 maanden",
     prijs: 59.95,
     uitverkocht: false,
+    info: "Deze Gran-Reserva is gemodelleerd naar het originele Llopart familie recept uit 1887. De extreem lange groei en rijping zorgt voor een droge en robuuste Corpinnat die exclusief druiven uit een 100 jaar oud deel van de Llopart wijngaard gebruikt. Deze stevige jongen bevat een eindeloos boeket van aardse, houterige en rokerige tonen met een vleugje Middelandse zeewind. Een bijzonder product voor de echte liefhebbers die fantastisch combineert met gedroogde hammen of Manchego kaas.",
   },
 ];
 

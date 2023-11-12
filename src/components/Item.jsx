@@ -12,13 +12,14 @@ const Item = ({
   rijping,
   prijs,
   uitverkocht,
+  info,
 }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
     <>
       {/* Info modal */}
-      {showInfo && <InfoModal id={id} setShowInfo={setShowInfo} />}
+      {showInfo && <InfoModal info={info} setShowInfo={setShowInfo} />}
 
       {/* Article */}
       <article className="item-wrapper">
