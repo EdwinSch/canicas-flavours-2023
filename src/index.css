@@ -180,3 +180,12 @@ main {
     }
   }
 }
+
+/* ---FOOTER COMPONENT */
+footer {
+  margin: 40px 0;
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-align: center;
+  text-transform: capitalize;
+}
