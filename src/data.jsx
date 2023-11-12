@@ -48,7 +48,7 @@ const assortment = [
   {
     id: 4,
     title: "can paixano rosat",
-    type: "semi-sec",
+    type: "semi-sec rosé",
     img: rosat,
     doc: "cava",
     smaak: "zoet (> 30 gr/L)",
