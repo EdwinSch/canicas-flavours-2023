@@ -71,6 +71,7 @@ main {
 }
 
 .assortment-container {
+  position: relative;
   margin: 20px 0;
   display: grid;
   gap: 30px;
@@ -86,6 +87,34 @@ main {
 
   @media only screen and (max-width: 300px) {
     display: none;
+  }
+}
+
+/* ---INFO MODAL COMPONENT */
+
+.info-modal-overlay {
+  /* border: var(--inspect); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+
+  .close-btn {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .info-text {
+    border: solid var(--secondary) 2px;
+    border-radius: 10px;
+    width: 80%;
+    height: fit-content;
+    padding: 10px 20px;
+    background: black;
   }
 }
 
