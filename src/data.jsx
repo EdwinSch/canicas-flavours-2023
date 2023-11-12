@@ -2,7 +2,7 @@ import ramon from "./assets/berenguer-ramon-j.png";
 import ramonRose from "./assets/berenguer-ramon-rose.png";
 import selecte from "./assets/can-paixano-selecte.png";
 import rosat from "./assets/can-paixano-rosat.png";
-import llopart from "./src/assets/llopart-brut.png";
+import llopart from "./assets/llopart-brut.png";
 import llopartRose from "./assets/llopart-rose.png";
 import integral from "./assets/llopart-integral.png";
 import microcosmos from "./assets/llopart-microcosmos.png";
