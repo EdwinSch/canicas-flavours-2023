@@ -49,6 +49,9 @@ main {
     @media only screen and (max-width: 450px) {
       height: 150px;
     }
+    @media only screen and (max-width: 300px) {
+      height: 100px;
+    }
   }
 }
 
@@ -58,10 +61,25 @@ main {
   display: none;
   text-align: center;
   color: red;
+  font-size: 14px;
   font-weight: 500;
 
   @media only screen and (max-width: 300px) {
     display: block;
+  }
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 600;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 18px;
+  }
+  @media only screen and (max-width: 300px) {
+    display: none;
   }
 }
 
@@ -214,4 +232,8 @@ footer {
   font-size: 0.813rem;
   text-align: center;
   text-transform: capitalize;
+
+  @media only screen and (max-width: 300px) {
+    display: none;
+  }
 }
