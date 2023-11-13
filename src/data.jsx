@@ -32,7 +32,7 @@ const assortment = [
     smaak: "droog (10 gr/L)",
     druiven: "trepat",
     rijping: "10-12 maanden",
-    prijs: 16.95,
+    prijs: 16.75,
     uitverkocht: false,
     info: "De rosé variant van de Berenguer Ramon is gemaakt van exclusief Trepat druiven wat resulteert in een frisse Cava met licht-zoete tonen van honing. Een mooie ronde en zonnige Cava voor een gezellige borrel met hapjes, uitgebreide lunch of een “boozy-breakfast”.",
   },
@@ -112,7 +112,7 @@ const assortment = [
     rijping: "24-30 maanden",
     prijs: 29.95,
     uitverkocht: false,
-    info: "Llopart creëerde met deze topper een kosmos van smaken. De blend geeft een elegante Robijnrode kleur en licht-zoete hintjes van rode bosvruchten ondanks deze Brut-Nature variant nagenoeg geen suikers bevat. Een unieke combinatie die meerdere keren in de prijzen is gevallen. De perfecte keuze voor iedereen die echt iets uitzonderlijks zoekt voor die bijzondere dinner tafel of een eindeloze zomeravond. Werkelijk een reisje naar de sterrenhemel!",
+    info: "Llopart creëerde met deze topper een kosmos van smaken. De blend geeft een elegante Robijnrode kleur, hele fijne bubbel en licht-zoete hintjes van rode bosvruchten ondanks deze Brut-Nature variant nagenoeg geen suikers bevat. Een unieke combinatie die meerdere keren in de prijzen is gevallen. De perfecte keuze voor iedereen die echt iets uitzonderlijks zoekt voor die bijzondere dinner tafel of een eindeloze zomeravond. Werkelijk een reisje naar de sterrenhemel!",
   },
   {
     id: 9,
@@ -125,7 +125,7 @@ const assortment = [
     rijping: "60 maanden",
     prijs: 36.95,
     uitverkocht: false,
-    info: "Bernardus Leopardi was eerste gedocumenteerde eigenaar van de Llopart Estate in 1385. Deze naar hem vernoemde Brut-Nature rijpt meer dan 60 maanden en smaakt naar een echte klassieke Cava. Een krachtig en complex aroma van kruidige tonen en geroosterde noten, maar toch droog en zacht. Dit is de absolute benchmark van uitzonderlijke kwaliteit en deze Corpinnat valt dan ook regelmatig in de prijzen.",
+    info: "Bernardus Leopardi was de eerste gedocumenteerde eigenaar van de Llopart Estate in 1385. Deze naar hem vernoemde Brut-Nature rijpt meer dan 60 maanden en smaakt naar een echte klassieke Cava. Een krachtig en complex aroma van kruidige tonen en geroosterde noten, maar toch droog en zacht. Dit is de absolute benchmark van uitzonderlijke kwaliteit en deze Corpinnat valt dan ook regelmatig in de prijzen.",
   },
   {
     id: 10,

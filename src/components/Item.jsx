@@ -45,7 +45,7 @@ const Item = ({
             {uitverkocht ? (
               <p className="price">
                 <span className="emph">Prijs per fles: </span>
-                <span className="no-stock">Uitverkocht</span>
+                <span className="no-stock">Uitverkocht!</span>
               </p>
             ) : (
               <p className="price">
@@ -69,7 +69,6 @@ const Item = ({
         </div>
 
         {/* INFO */}
-
         {showInfo && (
           <div className="info-wrapper">
             <p className="info-txt">{info}</p>
