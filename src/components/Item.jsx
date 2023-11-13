@@ -33,7 +33,7 @@ const Item = ({
               {smaak}
             </p>
             <p className="sub-text capitalize">
-              <span className="emph">Druiven: </span>
+              <span className="emph">Blend: </span>
               {druiven}
             </p>
             <p className="sub-text">

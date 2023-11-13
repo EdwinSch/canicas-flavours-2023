@@ -32,7 +32,6 @@ body {
 }
 main {
   margin: 0 auto;
-  /* border: var(--inspect); */
   width: 90vw;
   max-width: 1200px;
 }
@@ -70,6 +69,7 @@ main {
 }
 
 h1 {
+  margin-bottom: 20px;
   text-align: center;
   text-transform: capitalize;
   font-size: 22px;
@@ -90,7 +90,6 @@ h1 {
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(400px, 450px));
   place-content: center;
-  /* border: var(--inspect); */
 
   @media only screen and (max-width: 450px) {
     margin: 10px 0;
@@ -181,6 +180,8 @@ h1 {
     }
 
     @media only screen and (max-width: 450px) {
+      gap: 20px;
+
       .product-img {
         height: 220px;
       }
@@ -193,12 +194,14 @@ h1 {
         }
         .type {
           font-size: 13px;
+          margin-bottom: 15px;
         }
         .sub-text {
           font-size: 12px;
         }
         .price {
-          font-size: 12px;
+          margin-top: 15px;
+          font-size: 13px;
         }
         .info-btn {
           font-size: 12px;
