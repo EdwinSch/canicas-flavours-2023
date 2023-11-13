@@ -1,12 +1,12 @@
-import ramon from "./assets/berenguer-ramon-j.png";
-import ramonRose from "./assets/berenguer-ramon-rose.png";
-import selecte from "./assets/can-paixano-selecte.png";
-import rosat from "./assets/can-paixano-rosat.png";
-import llopart from "./assets/llopart-brut.png";
-import llopartRose from "./assets/llopart-rose.png";
-import integral from "./assets/llopart-integral.png";
-import microcosmos from "./assets/llopart-microcosmos.png";
-import exVite from "./assets/llopart-ex-vite.png";
+import ramon from "./assets/berenguer-ramon-sm.png";
+import ramonRose from "./assets/berenguer-ramon-rose-sm.png";
+import selecte from "./assets/can-paixano-selecte-sm.png";
+import rosat from "./assets/can-paixano-rosat-sm.png";
+import llopart from "./assets/llopart-brut-sm.png";
+import llopartRose from "./assets/llopart-rose-sm.png";
+import integral from "./assets/llopart-integral-sm.png";
+import microcosmos from "./assets/llopart-microcosmos-sm.png";
+import exVite from "./assets/llopart-ex-vite-sm.png";
 
 const assortment = [
   {
@@ -29,7 +29,7 @@ const assortment = [
     img: ramonRose,
     doc: "cava",
     smaak: "droog (< 12 gr/L)",
-    druiven: "macabeu, parellada, xarel-lo",
+    druiven: "trepat",
     rijping: "10 maanden",
     prijs: 16.95,
     uitverkocht: false,

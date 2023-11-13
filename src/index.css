@@ -13,11 +13,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-.img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
-}
 
 /* ---ROOT VARS */
 :root {
@@ -142,7 +137,7 @@ main {
       font-size: 16px;
     }
     .type {
-      font-size: 14px;
+      font-size: 15px;
       margin-bottom: 20px;
       text-transform: capitalize;
       font-weight: 400;
@@ -189,21 +184,21 @@ main {
     }
 
     .description-container {
-      line-height: 19px;
+      line-height: 18px;
 
       & h2 {
-        font-size: 15px;
+        font-size: 14px;
       }
       .type {
         font-size: 13px;
         margin-bottom: 15px;
       }
       .sub-text {
-        font-size: 13px;
+        font-size: 12px;
       }
       .price {
         margin-top: 15px;
-        font-size: 13px;
+        font-size: 12px;
       }
       .info-btn {
         margin-top: 15px;
@@ -216,7 +211,7 @@ main {
 footer {
   margin: 40px 0;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 0.813rem;
   text-align: center;
   text-transform: capitalize;
 }
