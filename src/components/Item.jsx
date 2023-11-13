@@ -1,4 +1,4 @@
-import { FaCircleInfo } from "react-icons/fa6";
+import { GoInfo } from "react-icons/go";
 import { useState } from "react";
 import InfoModal from "./InfoModal";
 
@@ -56,13 +56,16 @@ const Item = ({
             </p>
           )}
 
-          {/* Stock state */}
+          {/* Info button */}
           <button
             onClick={() => setShowInfo(true)}
             className="info-btn"
             type="button"
           >
-            <FaCircleInfo />
+            <span className="icon">
+              <GoInfo />
+            </span>
+            info
           </button>
         </div>
       </article>

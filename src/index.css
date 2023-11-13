@@ -61,7 +61,7 @@ main {
   display: none;
   text-align: center;
   color: red;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
 
   @media only screen and (max-width: 300px) {
@@ -155,7 +155,7 @@ h1 {
       font-size: 16px;
     }
     .type {
-      font-size: 15px;
+      font-size: 14px;
       margin-bottom: 20px;
       text-transform: capitalize;
       font-weight: 400;
@@ -178,18 +178,28 @@ h1 {
     }
     .info-btn {
       margin-top: 20px;
-      color: var(--secondary);
+      padding: 0 5px;
+      color: var(--primary);
       font-family: var(--font);
-      font-size: 22px;
+      font-size: 14px;
       font-weight: 500;
-      background: transparent;
+      background: var(--secondary);
       border: none;
+      border-radius: 6px;
       cursor: pointer;
       transition: 250ms ease;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+      .icon {
+        margin-top: 5px;
+        font-size: 17px;
+      }
 
       &:hover,
       &:active {
-        color: #eedccf;
+        background-color: #eedccf;
       }
     }
   }
@@ -220,6 +230,12 @@ h1 {
       }
       .info-btn {
         margin-top: 15px;
+        font-size: 12px;
+
+        .icon {
+          margin-top: 4px;
+          font-size: 15px;
+        }
       }
     }
   }
