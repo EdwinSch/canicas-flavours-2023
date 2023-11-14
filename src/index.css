@@ -268,13 +268,18 @@ h1 {
 
 /* ---GENERAL INFO COMPONENT */
 .gen-info-container {
-  /* border: var(--inspect); */
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+  }
+
   & h4 {
-    margin: 20px 0 10px 0;
+    margin: 20px 0;
     width: fit-content;
     text-transform: capitalize;
     font-size: 22px;
@@ -286,6 +291,7 @@ h1 {
   }
 
   & h5 {
+    margin-bottom: 5px;
     font-size: 16px;
     width: 100%;
   }
@@ -297,6 +303,7 @@ h1 {
 
   @media only screen and (max-width: 450px) {
     & h5 {
+      margin-bottom: 3px;
       font-size: 14px;
     }
     .about-txt {

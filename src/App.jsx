@@ -8,7 +8,7 @@ function App() {
     <main>
       <Header />
       <Grid />
-      <GeneralInfo />
+      {/* <GeneralInfo /> */}
       <Footer />
     </main>
   );

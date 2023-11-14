@@ -8,7 +8,7 @@ const GeneralInfo = () => {
         was direct een gerenommeerde naam na het openen van een uiterst
         succesvolle bar in Barcelona genaamd 'La Xampanyeria'. Hier wordt het
         huis product geserveerd in combinatie met heerlijke tapa in de
-        authentieke Catalaanse sfeer van de beroemde visserswijk Barceloneta.
+        authentieke Catalaanse sfeer van de visserswijk Barceloneta.
         Toegankelijke Cava's van fantastische kwaliteit en smaak die iedere
         borrel uitzonderlijk maken. We zijn dan ook trots op deze exclusieve
         samenwerking waarin wij 2 lijnen mogen aanbieden: Can Paixano en
@@ -16,15 +16,17 @@ const GeneralInfo = () => {
       </p>
       <h5>Llopart</h5>
       <p className="about-txt">
-        Wijnbouwers sinds 1385 en Cava meesters sinds 1887. De familie Llopart
-        bezit één van de oudste Cava Estates in Spanje en staat nog steeds onder
-        leiding van de familie. Sinds enkele jaren dragen zij het 'Corpinnat'
-        label: een exclusieve Cava variant. Gemaakt van druiven met een
-        uitzonderlijk hoge kwaliteit uit een hooggelegen wijngaard in de Penedès
-        regio. Slechts 3 andere Cava huizen in de wereld dragen het Corpinnat
-        label. Llopart maakt dan ook enkel ambachtelijke en lang gerijpte
-        Corpinnat (Reserva en Gran Reserva) voor het iets luxere segment die
-        behoren tot de absolute wereldtop.
+        Wijnbouwers sinds 1385 en Cava meesters sinds 1887. De Llopart familie
+        bezit één van de oudste Estates in Spanje, gelegen op 380 meter hoogte
+        in de Penedès regio waar de invloed van grond, klimaat en zeewind
+        druiven van uitzonderlijke kwaliteit levert. Llopart maakt in hun
+        eeuwenoude gaarden dan ook enkel ambachtelijke en lang gerijpte Cava
+        (Reserva en Gran Reserva) in het luxere segment. Vandaag de dag staat
+        het huis nog steeds onder leiding van de gelijknamige familie en mogen
+        zij sinds enkele jaren het 'Corpinnat' label dragen: een unieke
+        kwaliteits onderscheiding die slechts 3 andere Cava huizen in de wereld
+        bezitten. Dit in combinatie met een royaal gevulde prijzenkast, mogen we
+        stellen dat Llopart tot de absolute wereldtop behoort.
       </p>
     </section>
   );

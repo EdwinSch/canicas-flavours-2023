@@ -73,7 +73,7 @@ const assortment = [
     rijping: "18-20 maanden",
     prijs: 23.25,
     uitverkocht: false,
-    info: "Deze fantastische Corpinnat vertelt je alles over de uitzonderlijke kwaliteit van Llopart. Strogeel van kleur, een delicate bubbel en een aroma van wit fruit met een vleugje Middellandse zeewind. Met een minimale rijping van 18 maanden is deze Reserva is 1 van populairste producten van Llopart en een absolute all-round topper in het iets luxere segment. De kroon op iedere dinner tafel!",
+    info: "Deze fantastische Corpinnat vertelt je alles over de uitzonderlijke kwaliteit van Llopart. Strogeel van kleur, een delicate bubbel en een aroma van wit fruit met een vleugje Middellandse zeewind. Met een minimale rijping van 18 maanden is deze Reserva is 1 van populairste producten van Llopart en een absolute all-round topper in het luxere segment. De kroon op iedere dinner tafel!",
   },
   {
     id: 6,
