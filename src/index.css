@@ -54,6 +54,48 @@ main {
   }
 }
 
+/* ---FILTERS COMPONENT */
+.filters-container {
+  margin: 30px 0 20px 0;
+
+  .btns-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .filter-btn {
+      color: var(--primary);
+      padding: 4px;
+      width: 100px;
+      font-family: var(--font);
+      font-size: 13px;
+      font-weight: 500;
+      text-transform: capitalize;
+      background: var(--secondary);
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 250ms ease;
+
+      &:hover,
+      &:active {
+        background-color: #eedccf;
+      }
+
+      @media only screen and (max-width: 450px) {
+        font-size: 11px;
+      }
+      @media only screen and (max-width: 300px) {
+        display: none;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    margin: 25px 0 15px 0;
+  }
+}
+
 /* ---GRID COMPONENT */
 
 .viewport-error {
@@ -69,7 +111,7 @@ main {
 }
 
 h1 {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   text-align: center;
   text-transform: capitalize;
   font-size: 22px;

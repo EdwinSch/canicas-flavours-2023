@@ -63,7 +63,7 @@ const Item = ({
               <span className="icon">
                 <GoInfo />
               </span>
-              {showInfo ? "verberg info" : "toon info"}
+              {showInfo ? "Verberg info" : "Toon info"}
             </button>
           </div>
         </div>
