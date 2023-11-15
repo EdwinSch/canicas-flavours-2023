@@ -1,4 +1,4 @@
-## Manage Landing Page (React)
+## Canicas Flavours 2023 (React)
 
 Assortment overview for the Canicas Flavours Cava selecion 2023. Dynamic featueres are: toggle product description and filter by brand.
 
