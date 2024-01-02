@@ -45,6 +45,7 @@ const Item = ({
             {uitverkocht ? (
               <p className="price">
                 <span className="emph">Prijs per fles: </span>
+                <span className="strike">&euro; {prijs}</span>
                 <span className="no-stock">Uitverkocht!</span>
               </p>
             ) : (

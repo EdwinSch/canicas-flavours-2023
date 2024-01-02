@@ -35,7 +35,7 @@ const assortment = [
     druiven: "trepat",
     rijping: "10-12 maanden",
     prijs: 16.75,
-    uitverkocht: false,
+    uitverkocht: true,
     info: "De rosé variant van de Berenguer Ramon is gemaakt van exclusief Trepat druiven wat resulteert in een frisse Cava met licht-zoete tonen van honing. Een mooie ronde en zonnige Cava voor een gezellige borrel met hapjes, uitgebreide lunch of een “boozy-breakfast”.",
   },
   {
@@ -49,7 +49,7 @@ const assortment = [
     druiven: "macabeu, parellada, xarel-lo",
     rijping: "10 maanden",
     prijs: 13.95,
-    uitverkocht: false,
+    uitverkocht: true,
     info: "Deze Semi-Sec Cava is speciaal voor de liefhebbers van zoet. Met een hoge dosis suikers en een delicaat aroma combineert deze variant prima met een zonnige middag of als tegenhanger van een borrelplank.",
   },
   {
@@ -63,7 +63,7 @@ const assortment = [
     druiven: "tempranillo, carinena, trepat",
     rijping: "10 maanden",
     prijs: 11.95,
-    uitverkocht: false,
+    uitverkocht: true,
     info: "Een prachtige diep rode en zoete Semi-Sec Cava. De blend van Tempranillo, Carinena en Trepat, aangevuld met een zeer hoge dosis suikers maken dit de perfecte dessertwijn of partner voor een amuse.",
   },
   {
@@ -77,7 +77,7 @@ const assortment = [
     druiven: "macabeu, parellada, xarel-lo",
     rijping: "18-20 maanden",
     prijs: 23.25,
-    uitverkocht: false,
+    uitverkocht: true,
     info: "Deze fantastische Corpinnat vertelt je alles over de uitzonderlijke kwaliteit van Llopart. Strogeel van kleur, een delicate bubbel en een aroma van wit fruit met een vleugje Middellandse zeewind. Met een minimale rijping van 18 maanden is deze Reserva is 1 van populairste producten van Llopart en een absolute all-round topper in het luxere segment. De kroon op iedere dinner tafel!",
   },
   {
@@ -119,7 +119,7 @@ const assortment = [
     druiven: "pinot noir, monastrell, garnatxa",
     rijping: "24-30 maanden",
     prijs: 29.95,
-    uitverkocht: false,
+    uitverkocht: true,
     info: "Llopart creëerde met deze topper een kosmos van smaken. De blend geeft een elegante Robijnrode kleur, hele fijne bubbel en licht-zoete hintjes van rode bosvruchten ondanks deze Brut-Nature variant nagenoeg geen suikers bevat. Een unieke combinatie die meerdere keren in de prijzen is gevallen. De perfecte keuze voor iedereen die echt iets uitzonderlijks zoekt voor die bijzondere dinner tafel of een eindeloze zomeravond. Werkelijk een reisje naar de sterrenhemel!",
   },
   {
@@ -133,7 +133,7 @@ const assortment = [
     druiven: "macabeu, parellada, xarel-lo",
     rijping: "60 maanden",
     prijs: 36.95,
-    uitverkocht: false,
+    uitverkocht: true,
     info: "Bernardus Leopardi was de eerste gedocumenteerde eigenaar van de Llopart Estate in 1385. Deze naar hem vernoemde Brut-Nature rijpt meer dan 60 maanden en smaakt naar een echte klassieke Cava. Een krachtig en complex aroma van kruidige tonen en geroosterde noten, maar toch droog en zacht. Dit is de absolute benchmark van uitzonderlijke kwaliteit en deze Corpinnat valt dan ook regelmatig in de prijzen.",
   },
   {
@@ -147,7 +147,7 @@ const assortment = [
     druiven: "macabeu, xarel-lo",
     rijping: "90 maanden",
     prijs: 59.95,
-    uitverkocht: false,
+    uitverkocht: true,
     info: "Het vlaggenschip van Llopart is gemodelleerd naar het originele Llopart familie recept uit 1887. De extreem lange rijping zorgt voor een droge en elegante Corpinnat die exclusief druiven uit het oudste deel van de Llopart wijngaard gebruikt. Een goudgele kleur, grovere bubbel en een eindeloos boeket van rokerige, aardse tonen met gedroogd fruit. Een bijzonder product voor de echte liefhebbers die fantastisch combineert met gedroogde hammen of oude kazen.",
   },
 ];
