@@ -2,8 +2,9 @@ import { GoInfo } from "react-icons/go";
 import { FaChevronUp } from "react-icons/fa6";
 import { useState } from "react";
 
+import PropTypes from "prop-types";
+
 const Item = ({
-  id,
   title,
   type,
   img,
@@ -44,9 +45,9 @@ const Item = ({
             {/* Stock state */}
             {uitverkocht ? (
               <p className="price">
-                <span className="emph">Prijs per fles: </span>
-                <span className="strike">&euro; {prijs}</span>
                 <span className="no-stock">Uitverkocht!</span>
+                <span className="emph">Prijs per fles: </span>
+                <span>&euro; {prijs}</span>
               </p>
             ) : (
               <p className="price">
@@ -87,6 +88,20 @@ const Item = ({
       </article>
     </>
   );
+};
+
+// Proptypes check
+Item.propTypes = {
+  id: PropTypes.number,
+  title: PropTypes.string,
+  type: PropTypes.string,
+  img: PropTypes.any,
+  smaak: PropTypes.string,
+  druiven: PropTypes.string,
+  rijping: PropTypes.string,
+  prijs: PropTypes.number,
+  uitverkocht: PropTypes.bool,
+  info: PropTypes.string,
 };
 
 export default Item;

@@ -1,5 +1,6 @@
 const Footer = () => {
-  return <footer>&copy; 2023 canicas flavours - ex vite vita</footer>;
+  const year = new Date().getFullYear();
+  return <footer>&copy; {year} canicas flavours - ex vite vita</footer>;
 };
 
 export default Footer;

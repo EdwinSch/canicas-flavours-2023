@@ -13,7 +13,7 @@ const Grid = () => {
       <p className="viewport-error">
         Please view this site on a bigger window or device.
       </p>
-      <h1>december assortiment 2023</h1>
+      <h1>Assortiment 2024</h1>
 
       {/* Filter btns */}
       <Filters setActiveData={setActiveData} />
