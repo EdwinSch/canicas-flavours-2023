@@ -8,12 +8,14 @@ const Grid = () => {
   // Set full assortment data on load
   const [activeData, setActiveData] = useState(assortment);
 
+  const year = new Date().getFullYear();
+
   return (
     <>
       <p className="viewport-error">
         Please view this site on a bigger window or device.
       </p>
-      <h1>Assortiment 2024</h1>
+      <h1>Assortiment {year}</h1>
 
       {/* Filter btns */}
       <Filters setActiveData={setActiveData} />
